@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Categories">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_electronics"
+                android:icon="@drawable/ic_stay_current_portrait_black_24dp"
+                android:title="Electronics" />
+            <item
+                android:id="@+id/nav_lifestyle"
+                android:icon="@drawable/shirt44255"
+                android:title="Lifestyle" />
+            <item
+                android:id="@+id/nav_appliances"
+                android:icon="@drawable/lampicon65058"
+                android:title="Home Appliances" />
+            <item
+                android:id="@+id/nav_accessories"
+                android:icon="@drawable/sunglasses2512"
+                android:title="Accessories" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="Logout" />
+
+</menu>
